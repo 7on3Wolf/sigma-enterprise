@@ -9,7 +9,7 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/dist',
-        manifest: true, // Membuat manifest untuk menghubungkan Vite dengan Laravel
-    },
+        outDir: 'public/dist', // Output build ke public/dist
+        assetsDir: 'assets',   // Pastikan asset terbundel dengan benar
+    }
 });
