@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/dist',
+        manifest: true, // Membuat manifest untuk menghubungkan Vite dengan Laravel
+    },
 });
