@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* resources/css/app.css */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Menambahkan class untuk navbar yang bergeser */
+#navbar.scrolled a {
+    color: #000;
+    /* Ubah warna menjadi hitam */
+}
+
+#navbar.scrolled a:hover {
+    color: #f00;
+    /* Ubah warna saat hover jika diperlukan */
+}
